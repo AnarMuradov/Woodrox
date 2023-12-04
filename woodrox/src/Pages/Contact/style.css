@@ -1,0 +1,83 @@
+.googleMap{
+    width: 100%;
+    height: 1000px;
+}
+.gmContainer{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactForm{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 300px;
+}
+.cntbox{
+    display: flex;
+    gap: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactSupport{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactSupport i{
+    font-size: 20px;
+    color: #faba00;
+}
+.area{
+    display: flex;
+    gap: 30px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input input{
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    padding-left: 20px;
+    width: 300px;
+    height: 40px;
+}
+.form{
+    width: 60%;
+}
+.form a{
+    display: inline-block;
+    background-color: #faba00;
+    color: white;
+    width: 140px;
+    font-size: 14px;
+    border: 1px solid #faba00;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: 300ms;
+    line-height: 40px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+textarea{
+    width: 365px;;
+}

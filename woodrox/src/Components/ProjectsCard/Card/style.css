@@ -1,0 +1,30 @@
+.projectcard {
+  max-width: 100%;
+  height: 400px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.projectcardImage img {
+  height: 400px;
+  max-width: 100%;
+}
+
+.projectCardHover {
+  position: absolute;
+  bottom: -40px;
+  background-color: #faba00;
+  padding: 36px;
+  transition: all 400ms ease;
+  opacity: 0;
+}
+.projectcard:hover .projectCardHover {
+  opacity: 1;
+  bottom: 0;
+}
+.projectCardHover h3 {
+  font-size: 17px;
+}
+.projectCardHover p {
+  font-size: 14px;
+}

@@ -1,0 +1,94 @@
+#footer {
+  width: 100%;
+  min-height: 425px;
+  background-color: #222222;
+}
+.footerContainer {
+  width: 1200px;
+  min-height: 425px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about {
+  width: 39%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about h2 {
+  font-size: 20px;
+}
+.about p {
+  font-size: 14px;
+  color: #777777;
+}
+
+.newsletter {
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+.newsletter h2 {
+  font-size: 20px;
+}
+.newsletter p {
+  font-size: 14px;
+  color: #777777;
+}
+.footerInput input {
+  height: 40px;
+  width: 70%;
+  padding: 0px 15px;
+  font-size: 14px;
+  color: #cccccc;
+  border: none;
+  vertical-align: bottom;
+}
+.footerInput button {
+  background-color: #faba00;
+  width: 42px;
+  cursor: pointer;
+  color: #fff;
+  height: 40px;
+  border: none;
+}
+
+.follow {
+  width: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.follow h2 {
+  font-size: 20px;
+}
+.follow p {
+  font-size: 14px;
+  color: #777777;
+}
+.followContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerIcons {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #cccccc;
+}
+.footerIcons i {
+  cursor: pointer;
+  transition: 800ms;
+}
+.footerIcons i:hover {
+  color: #faba00;
+}

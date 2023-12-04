@@ -1,0 +1,20 @@
+.MPFCard{
+    max-width: 360px;
+    min-height:320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.MPFCard h3{
+    font-weight: bold;
+    font-size: 18px;
+    transition: 500ms;
+}
+.MPFCard:hover h3{
+    color: #faba00;
+}
+
+.MPFCard p{
+    color: #777777;
+    font-size: 14px;
+}

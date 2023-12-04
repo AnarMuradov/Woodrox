@@ -1,0 +1,58 @@
+.OurBlogPostsCard{
+    max-width: 360px;
+    min-height: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.OBPtravel{
+    display: inline-block;
+    background-color: #faba00;
+    color: white;
+    width: 80px;
+    font-size: 12px;
+    border: 1px solid #faba00;
+    text-align: center;
+    cursor: pointer;
+    transition: 300ms;
+    line-height: 30px;
+
+}
+.OBPstyle{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 80px;
+    font-size: 12px;
+    border:1px solid #eeeeee;
+    text-align: center;
+    cursor: pointer;
+    transition: 300ms;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.OBPstyle:hover{
+    background-color: #faba00;;
+    color: white;
+}
+.OurBlogPostsCardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.OurBlogPostsCardContent h3{
+    font-size: 19px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.OurBlogPostsCardContent h3:hover{
+    color: #faba00;
+}
+.OurBlogPostsCardContent p{
+    font-size: 14px;
+    color: #777777;
+}
+.OurBlogPostsCardContent span{
+    font-size: 14px;
+    cursor: pointer;
+}
